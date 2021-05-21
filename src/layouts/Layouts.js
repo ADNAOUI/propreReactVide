@@ -33,7 +33,7 @@ export default class Layouts extends React.Component {
                 />
               );
             })}
-            <Redirect from="/ressources_relationnelles" to="/ressources_relationnelles/accueil" />
+            <Redirect from="/" to="/accueil" />
           </Switch>
 
           <Switch>
@@ -46,7 +46,7 @@ export default class Layouts extends React.Component {
                 />
               );
             })}
-            <Redirect from="/ressources_relationnelles" to="/ressources_relationnelles/accueil" />
+            <Redirect from="/" to="/accueil" />
           </Switch>
         </div>
 

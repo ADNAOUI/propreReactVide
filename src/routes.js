@@ -32,28 +32,28 @@ const dashRoutes = [
     name: "Accueil",
     icon: <MdHome/>,
     component: AccueilContainer,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     path: "/tendances",
     name: "Tendances",
     icon:<VscFlame/>,
     component: Tendances,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     path: "/moncompte",
     name: "Mon Compte",
     icon:<MdAccountCircle/>,
     component: MonCompte,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     path: "/forum",
     name: "Forum",
     icon:<MdForum/>,
     component: Forum,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     textSeparation:<p className="positionTextSeparationLeftNavBar">Améliorer vos relations</p>,
@@ -61,35 +61,35 @@ const dashRoutes = [
     name: "Soi",
     icon: <FcSelfie/>,
     component: Soi,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     path: "/conjoints",
     name: "Conjoints",
     icon: <GiLovers/>,
     component: Conjoints,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     path: "/professionnels",
     name: "Professionnels",
     icon: <MdWork/>,
     component: Professionnels,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     path: "/familles",
     name: "Familles",
     icon: <GiFamilyTree/>,
     component: Familles,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     path: "/amis",
     name: "Amis",
     icon: <FaUserFriends/>,
     component: Amis,
-    layout: "/ressources_relationnelles",
+    layout: "/",
   },
 
   {
@@ -97,7 +97,7 @@ const dashRoutes = [
     nameF: "About",
     iconF: <FaUserFriends/>,
     componentF: About,
-    layoutF: "/ressources_relationnelles",
+    layout: "/",
   }
 ];
 

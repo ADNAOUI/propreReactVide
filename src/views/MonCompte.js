@@ -87,12 +87,12 @@ class MonCompte extends Component {
 
 
 												<div className="_2IzNv">
-													<Link className="_3rUER" to="/ressources_relationnelles/moncompte">Aperçu</Link>
-													<Link className="_3rUER" to="/ressources_relationnelles/galerie">Galerie</Link>
-													<Link className="_3rUER" to="/ressources_relationnelles/favoris">Favoris</Link>
-													<Link className="_3rUER" to="/ressources_relationnelles/ressources">Ressources</Link>
-													<Link className="_3rUER" to="/ressources_relationnelles/apropos">À propos</Link>
-													<Link className="_3rUER" to="/ressources_relationnelles/statistiques">Statistiques</Link>
+													<Link className="_3rUER" to="/moncompte">Aperçu</Link>
+													<Link className="_3rUER" to="/galerie">Galerie</Link>
+													<Link className="_3rUER" to="/favoris">Favoris</Link>
+													<Link className="_3rUER" to="/ressources">Ressources</Link>
+													<Link className="_3rUER" to="/apropos">À propos</Link>
+													<Link className="_3rUER" to="/statistiques">Statistiques</Link>
 												</div>
 
 												<div className="_3v-Py">
@@ -161,12 +161,12 @@ class MonCompte extends Component {
 									</div>
 								</div>
 							</div>
-								<Route path="/ressources_relationnelles/moncompte" component={Aperçu}/>
-								<Route path="/ressources_relationnelles/galerie" component={Galerie}/>
-								<Route path="/ressources_relationnelles/favoris" component={Favoris}/>
-								<Route path="/ressources_relationnelles/ressources" component={Ressources}/>
-								<Route path="/ressources_relationnelles/apropos" component={APropos}/>
-								<Route path="/ressources_relationnelles/statistiques" component={Statistiques}/>
+								<Route path="/moncompte" component={Aperçu}/>
+								<Route path="/galerie" component={Galerie}/>
+								<Route path="/favoris" component={Favoris}/>
+								<Route path="/ressources" component={Ressources}/>
+								<Route path="/apropos" component={APropos}/>
+								<Route path="/statistiques" component={Statistiques}/>
 							</div>
 							</BrowserRouter>
 						</div>
