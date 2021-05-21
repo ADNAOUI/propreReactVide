@@ -13,43 +13,43 @@ const footerRoutes = [
     pathFooter: "/help",
     nameFooter: "Aides",
     component: Help,
-    layoutFooter: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     pathFooter: "/faq",
     nameFooter: "FAQ",
     component: Faq,
-    layoutFooter: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     pathFooter: "/resourcecontainer",
     nameFooter: "ResourceContainer",
     component: ResourceContainer,
-    layoutFooter: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     pathFooter: "/about",
     nameFooter: "About",
     component: About,
-    layoutFooter: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     pathFooter: "/conditions",
     nameFooter: "Conditions",
     component: Conditions,
-    layoutFooter: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     pathFooter: "/politicalCookies",
     nameFooter: "Politique de Cookies",
     component: PoliticalCookies,
-    layoutFooter: "/ressources_relationnelles",
+    layout: "/",
   },
   {
     pathFooter: "/conduite",
     nameFooter: "Lignes de Conduite",
     component: Conduite,
-    layoutFooter: "/ressources_relationnelles",
+    layout: "/",
   }
 ];
 

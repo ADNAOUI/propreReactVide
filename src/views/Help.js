@@ -22,7 +22,7 @@ export default class Help extends Component {
         <CardGroup>
         <div class="positionCardParentHelp col-12">
           <div class="positionCardHelp">
-          <Link to="/ressources_relationnelles/faq">
+          <Link to="/faq">
             <Card.Img variant="top" src={faqHelp} class="imgCardposition" />
             <Card.Body class="contenuBodyCardHelp">
               <Card.Title class="titreCardHelp">FAQ</Card.Title>
@@ -34,7 +34,7 @@ export default class Help extends Component {
           </Link>
           </div>
           <div class="positionCardHelp">
-            <Link to="/ressources_relationnelles/politicalCookies">
+            <Link to="/politicalCookies">
               <Card.Img variant="top" src={cookiesHelp} class="imgCardposition"/>
               <Card.Body class="contenuBodyCardHelp">
                 <Card.Title class="titreCardHelp">Politique de Cookies</Card.Title>
@@ -46,7 +46,7 @@ export default class Help extends Component {
             </Link>
           </div>
           <div class="positionCardHelp">
-            <Link to="/ressources_relationnelles/conduite">
+            <Link to="/conduite">
               <Card.Img variant="top" src={conduitesHelp} class="imgCardposition"/>
               <Card.Body class="contenuBodyCardHelp">
                 <Card.Title class="titreCardHelp">Ligne de Conduites</Card.Title>
@@ -61,7 +61,7 @@ export default class Help extends Component {
 
         <div class="positionCardParentHelp col-12">
           <div class="positionCardHelp">
-            <Link to="/ressources_relationnelles/about">
+            <Link to="/about">
               <Card.Img variant="top" src={aboutUsHelp} class="imgCardposition"/>
               <Card.Body class="contenuBodyCardHelp">
                 <Card.Title class="titreCardHelp">A propos</Card.Title>
@@ -73,7 +73,7 @@ export default class Help extends Component {
             </Link>
           </div>
           <div class="positionCardHelp">
-            <Link to="/ressources_relationnelles/conditions">
+            <Link to="/conditions">
               <Card.Img variant="top" src={conditionsHelp} class="imgCardpositionConditions"/>
               <Card.Body class="contenuBodyCardHelp">
                 <Card.Title class="titreCardHelp">Conditions</Card.Title>

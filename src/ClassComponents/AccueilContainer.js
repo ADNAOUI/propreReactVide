@@ -108,7 +108,7 @@ class AccueilContainer extends Component {
             {/*AFFICHER toutes les ressources cards de la BdD*/}
             <ul>
               {this.state.ressources.map((ressource, indexRessource) =>
-                <Link to="/ressources_relationnelles/resourcecontainer"><ResourceCard key={indexRessource} tableRessources={ressource} tableMembres={this.state.membres} /></Link>
+                <Link to="/resourcecontainer"><ResourceCard key={indexRessource} tableRessources={ressource} tableMembres={this.state.membres} /></Link>
               )}
             </ul>
           </div>
